@@ -19,7 +19,7 @@ export default function Hero({ play }: { play: boolean }) {
 
       <div className="grid grid-cols-2 items-end gap-6 md:grid-cols-3">
         <div className="text-[clamp(1.6rem,3vw,2.6rem)] leading-[1.05] font-serif font-light">
-          <RevealLines play={play} delay={0.5} lines={["L'ambre", <em key="e">au creux de la peau.</em>]} />
+          <RevealLines play={play} delay={0.5} lines={["L'ambre", <em key="e">au creux de la peau...</em>]} />
         </div>
 
         <FadeUp play={play} delay={1} className="hidden flex-col items-center gap-3 justify-self-center md:flex">
